@@ -1,0 +1,430 @@
+
+@prefix data: <http://example.com/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+
+
+data:1 rdf:type data:lagudaerah;
+    data:id "001";
+    data:title "Adi-Adi Laun Lambar";
+    data:asal "Lampung";
+    data:pencipta "No Name";    
+    data:link "https://youtu.be/ECCviuRSm8w";.
+   
+data:2 rdf:type data:lagudaerah;
+    data:id "002";
+    data:title "Alon-Alon";
+    data:asal "Kalimantan Barat";
+    data:pencipta "Paul Putra Frederick";
+    data:link "https://youtu.be/5KrIql_kr84";.
+
+data:3 rdf:type data:lagudaerah;
+    data:id "003";
+    data:title "Aek Kapuas";
+    data:asal "Kalimantan Barat";
+    data:pencipta "Chairoman Sutin";
+    data:link "https://youtu.be/3nsK4HwFoQw";.
+
+data:4 rdf:type data:lagudaerah;
+    data:id "004";
+    data:title "Ambon Manise";
+    data:asal "Maluku";
+    data:pencipta "Anthony B.T.";
+    data:link "https://youtu.be/Hnbpi75zC2w";.
+
+data:5 rdf:type data:lagudaerah;
+    data:id "005";
+    data:title "Ammac Ciang";
+    data:asal "Sulawesi Selatan";
+    data:pencipta "M Nur Iskandar";
+    data:link "https://youtu.be/WUsGeKhN3ko";.
+
+data:6 rdf:type data:lagudaerah;
+    data:id "006";
+    data:title "Sungai Kapuas";
+    data:asal "Kalimantan Barat";
+    data:pencipta "Paul Putra Frederick";
+    data:link "https://youtu.be/GyTC0181b5I";.
+
+data:7 rdf:type data:lagudaerah;
+    data:id "007";
+    data:title "Anak Daro";
+    data:asal "Sumatera Barat";
+    data:pencipta "Zubir Said";
+    data:link "https://youtu.be/uXf8q9AZXLE";.
+
+data:8 rdf:type data:lagudaerah;
+    data:id "008";
+    data:title "Anak Kambing Saya";
+    data:asal "Nusa Tenggara Timur";
+    data:pencipta "Ibu Sud";
+    data:link "https://youtu.be/LoiEOghosVU";.
+
+data:9 rdf:type data:lagudaerah;
+    data:id "009";
+    data:title "Anak Kukang";
+    data:asal "Sulawesi Selatan";
+    data:pencipta "Bora Dg Irate";
+    data:link "https://youtu.be/56iEomeLjoc";.
+
+data:10 rdf:type data:lagudaerah;
+    data:id "010";
+    data:title "Anak Pipit";
+    data:asal "Kalimantan Selatan";
+    data:pencipta "Hamiedan AC";
+    data:link "https://youtu.be/w-wJAhQxL2w";.
+
+data:11 rdf:type data:lagudaerah;
+    data:id "011";
+    data:title "Anak Tupai";
+    data:asal "Lampung";
+    data:pencipta "No Name";
+    data:link "https://youtu.be/6y4szC7jMT4";.
+
+data:12 rdf:type data:lagudaerah;
+    data:id "012";
+    data:title "Anging Mamiri";
+    data:asal "Sulawesi Selatan";
+    data:pencipta "Arshinta P Aziz";
+    data:link "https://youtu.be/IU-3uvRzvyA";. 
+
+data:13 rdf:type data:lagudaerah;
+    data:id "013";
+    data:title "Anju Ahu";
+    data:asal "Sumatera Utara";
+    data:pencipta "Oppung Tigor";
+    data:link "https://youtu.be/EzktV02KAew";.
+
+data:14 rdf:type data:lagudaerah;
+    data:id "014";
+    data:title "Apuse";
+    data:asal "Papua";
+    data:pencipta "No Name";
+    data:link "https://youtu.be/VlyDN-yQMuk";.
+
+data:15 rdf:type data:lagudaerah;
+    data:id "015";
+    data:title "Ati Raja";
+    data:asal "Sulawesi Selatan";
+    data:pencipta "Kisah Ho Eng Dji";
+    data:link "https://youtu.be/VCpu0t64JzU";.
+
+data:16 rdf:type data:lagudaerah;
+    data:id "016";
+    data:title "Ayam Den Lampeh";
+    data:asal "Sumatera Barat";
+    data:pencipta "Elly Kasim";
+    data:link "https://youtu.be/HJN3eTGD4VE";.
+
+data:17 rdf:type data:lagudaerah;
+    data:id "017";
+    data:title "Ayo Mama";
+    data:asal "Maluku";
+    data:pencipta "Huang-Huilan";
+    data:link "https://youtu.be/4pm-LvW0dsA";.
+
+data:18 rdf:type data:lagudaerah;
+    data:id "018";
+    data:title "Badindin";
+    data:asal "Sumatera Barat";
+    data:pencipta "Tiar Ramon";
+    data:link "https://youtu.be/Ssrfdr9n74E";.
+
+data:19 rdf:type data:lagudaerah;
+    data:id "019";
+    data:title "Bajing Luncat";
+    data:asal "Jawa Barat";
+    data:pencipta "Kosaman Djaja";
+    data:link "https://youtu.be/lh3HFgVX0Ts";.
+
+data:20 rdf:type data:lagudaerah;
+    data:id "020";
+    data:title "Modjang Bandung";
+    data:asal "Jawa Barat";
+    data:pencipta "Kosaman Djaja";
+    data:link "https://youtu.be/UCp0xfb-IQ4";.
+
+
+data:21 rdf:type data:lagudaerah;
+    data:id "021";
+    data:title "Bapak Pucung";
+    data:asal "Jawa Tengah";
+    data:pencipta "No Name";
+    data:link "https://youtu.be/qgr23vyTu4c";.
+
+data:22 rdf:type data:lagudaerah;
+    data:id "022";
+    data:title "Bareh Solok";
+    data:asal "Sumatera Barat";
+    data:pencipta "Sambas Mangundikarta";
+    data:link "https://youtu.be/PDX_-tZULRU";.
+
+data:23 rdf:type data:lagudaerah;
+    data:id "023";
+    data:title "Batang Hari";
+    data:asal "Jambi";
+    data:pencipta "No Name";
+    data:link "https://youtu.be/4vLBeT-H91c";.
+
+data:24 rdf:type data:lagudaerah;
+    data:id "024";
+    data:title "Batti’batti";
+    data:asal "Sulawesi Selatan";
+    data:pencipta "Don Giovanni";
+    data:link "https://youtu.be/eDoFDKJlO3s";.
+
+data:25 rdf:type data:lagudaerah;
+    data:id "025";
+    data:title "Bawi Kuwu";
+    data:asal "Kalimantan Tengah";
+    data:pencipta "No Name";
+    data:link "https://youtu.be/GrpXyy-ylHQ";.
+
+data:26 rdf:type data:lagudaerah;
+    data:id "026";
+    data:title "Bebilin";
+    data:asal "Kalimantan Utara";
+    data:pencipta "No Name";
+    data:link "https://youtu.be/A0DmsTuWQ1E";.
+
+data:27 rdf:type data:lagudaerah;
+    data:id "027";
+    data:title "Binde Biluhuta";
+    data:asal "Gorontalo";
+    data:pencipta "Rusdin Palada";
+    data:link "https://youtu.be/VPJNr89QVDI";.
+
+data:28 rdf:type data:lagudaerah;
+    data:id "028";
+    data:title "Bolelebo";
+    data:asal "Nusa Tenggara Timur";
+    data:pencipta "No Name";
+    data:link "https://youtu.be/wBQqZr5zPiA";.
+
+data:29 rdf:type data:lagudaerah;
+    data:id "029";
+    data:title "Bubuy Bulan";
+    data:asal "Jawa Barat";
+    data:pencipta "Benny Korda";
+    data:link "https://youtu.be/nlGDTfbrcTQ";.
+
+data:30 rdf:type data:lagudaerah;
+    data:id "030";
+    data:title "Buka Pintu";
+    data:asal "Maluku";
+    data:pencipta "R.C Hardjosubroto";
+    data:link "https://youtu.be/OdFwDEm3WXc";.
+
+data:31 rdf:type data:lagudaerah;
+    data:id "031";
+    data:title "Bumi Lampung";
+    data:asal "Lampung";
+    data:pencipta "H. Raja Sangun";
+    data:link "https://youtu.be/4NfHRM5rDOY";.
+
+data:32 rdf:type data:lagudaerah;
+    data:id "032";
+    data:title "Bungong Jeumpa";
+    data:asal "Aceh";
+    data:pencipta "No Name";
+    data:link "https://youtu.be/I273BNuv6aU";.
+
+data:33 rdf:type data:lagudaerah;
+    data:id "033";
+    data:title "Burung Kakatua";
+    data:asal "Maluku";
+    data:pencipta "R.C Hardjosubroro";
+    data:link "https://youtu.be/x3xxXPfs3Sk";.
+
+data:34 rdf:type data:lagudaerah;
+    data:id "034";
+    data:title "Burung Tantina";
+    data:asal "Maluku";
+    data:pencipta "Ismail Marzuki";
+    data:link "https://youtu.be/xxE6iRiP19Q";.
+
+data:35 rdf:type data:lagudaerah;
+    data:id "035";
+    data:title "Butet";
+    data:asal "Sumatera Utara";
+    data:pencipta "No Name";
+    data:link "https://youtu.be/g8BqQR-Q7jU";.
+
+data:36 rdf:type data:lagudaerah;
+    data:id "036";
+    data:title "Cangget Agung";
+    data:asal "Lampung";
+    data:pencipta "Syaiful Anwar";
+    data:link "https://youtu.be/ODDVfgXST4E";.
+
+data:37 rdf:type data:lagudaerah;
+    data:id "037";
+    data:title "Cik-Cik Periuk";
+    data:asal "Kalimantan Barat";
+    data:pencipta "No Name";
+    data:link "https://youtu.be/SEHi-11mdR8";.
+
+data:38 rdf:type data:lagudaerah;
+    data:id "038";
+    data:title "Cikala Le Pongpong";
+    data:asal "Sumatera Barat";
+    data:pencipta "Daulat Padang";
+    data:link "https://youtu.be/GjJBVepmgxA";.
+
+data:39 rdf:type data:lagudaerah;
+    data:id "039";
+    data:title "Cing Cakeling";
+    data:asal "Jawa Barat";
+    data:pencipta "Sheila Rooswitha";
+    data:link "https://youtu.be/RhLU7D62Mug";.
+
+data:40 rdf:type data:lagudaerah;
+    data:id "040";
+    data:title "Cinta Nusa";
+    data:asal "Jawa Barat";
+    data:pencipta "No Name";
+    data:link "https://youtu.be/xBKuIw-U4I0";.
+
+data:41 rdf:type data:lagudaerah;
+    data:id "041";
+    data:title "Colenak";
+    data:asal "Jawa Barat";
+    data:pencipta "Aki Murdi";
+    data:link "https://youtu.be/oz-M88lOhKA";.
+
+data:42 rdf:type data:lagudaerah;
+    data:id "042";
+    data:title "Cublak-Cublak Suweng";
+    data:asal "Jawa Tengah";
+    data:pencipta "Sunan Giri";
+    data:link "https://youtu.be/BWeNBwo1ijY";.
+
+data:43 rdf:type data:lagudaerah;
+    data:id "043";
+    data:title "Cuk Mak Ilang";
+    data:asal "Sumatera Selatan";
+    data:pencipta "No Name";
+    data:link "https://youtu.be/ko-n9IY1Z78";.
+
+data:44 rdf:type data:lagudaerah;
+    data:id "044";
+    data:title "Dabu-Dabu";
+    data:asal "Gorontalo";
+    data:pencipta "No Name";
+    data:link "https://youtu.be/GZq5H90DjZw";.
+
+data:45 rdf:type data:lagudaerah;
+    data:id "045";
+    data:title "Dago Inang Sarge";
+    data:asal "Sumatera Utara";
+    data:pencipta "No Name";
+    data:link "https://youtu.be/H949GcX_Y9Q";.
+
+data:46 rdf:type data:lagudaerah;
+    data:id "046";
+    data:title "Dayung Palinggam";
+    data:asal "Sumatera Barat";
+    data:pencipta "Karim Nun";
+    data:link "https://youtu.be/U01Hw-exkfM";.
+
+data:47 rdf:type data:lagudaerah;
+    data:id "047";
+    data:title "Dayung Sampan";
+    data:asal "Banten";
+    data:pencipta "Osman Ahmad";
+    data:link "https://youtu.be/lHzxJhBJEVY";.
+
+data:48 rdf:type data:lagudaerah;
+    data:id "048";
+    data:title "Dek Sangke";
+    data:asal "Sumatera Selatan";
+    data:pencipta "N. Zahara & A. Dahlan";
+    data:link "https://youtu.be/aGGFDYPWawM";.
+
+data:49 rdf:type data:lagudaerah;
+    data:id "049";
+    data:title "Desaku";
+    data:asal "Nusa Tenggara Timur";
+    data:pencipta "R.C Hardjosubroto";
+    data:link "https://youtu.be/It4T7Mqk1L8";.
+
+data:50 rdf:type data:lagudaerah;
+    data:id "050";
+    data:title "Dewa Ayu";
+    data:asal "Bali";
+    data:pencipta "Amri MF";
+    data:link "https://youtu.be/HeJ0zxessWM";.
+
+data:51 rdf:type data:lagudaerah;
+    data:id "051";
+    data:title "Dodoi Si Dodoi";
+    data:asal "Jambi";
+    data:pencipta "No Name";
+    data:link "https://youtu.be/_7WZGc5nC5c";.
+
+data:52 rdf:type data:lagudaerah;
+    data:id "052";
+    data:title "Es Lilin";
+    data:asal "Jawa Barat";
+    data:pencipta "No Name";
+    data:link "https://youtu.be/5E8ZWr3-TB0";.
+
+data:53 rdf:type data:lagudaerah;
+    data:id "053";
+    data:title "Gadis Taruna";
+    data:asal "Sulawesi Utara";
+    data:pencipta "No Name";
+    data:link "https://youtu.be/4Fy7RBd-36g";.
+
+data:54 rdf:type data:lagudaerah;
+    data:id "054";
+    data:title "Gambang Suling";
+    data:asal "Jawa Tengah";
+    data:pencipta "Ki Narto Sabdo";
+    data:link "https://youtu.be/AnIoCWmMeK0";.
+
+data:55 rdf:type data:lagudaerah;
+    data:id "055";
+    data:title "Gek Kepriye";
+    data:asal "Jawa Tengah";
+    data:pencipta "Zada Thalita R.";
+    data:link "https://youtu.be/vIOnWkuoSTM";.
+
+data:56 rdf:type data:lagudaerah;
+    data:id "056";
+    data:title "Gelang Sipaku Gelang";
+    data:asal "Sumatera Barat";
+    data:pencipta "No Name";
+    data:link "https://youtu.be/Jlc0t-U0_28";.
+
+data:57 rdf:type data:lagudaerah;
+    data:id "057";
+    data:title "Gundul-Gundul Pacul";
+    data:asal "Jawa Tengah";
+    data:pencipta "R.C. Hardjo Subroto";
+    data:link "https://youtu.be/rlX5v1tqayM";.
+
+data:58 rdf:type data:lagudaerah;
+    data:id "058";
+    data:title "Ingdung-Indung";
+    data:asal "Kalimantan Timur";
+    data:pencipta "Ilin Sumantri";
+    data:link "https://youtu.be/z7dN6_pXG6s";.
+
+data:59 rdf:type data:lagudaerah;
+    data:id "059";
+    data:title "Injit-Injit Semut";
+    data:asal "Jambi";
+    data:pencipta "Rinto Harahap";
+    data:link "https://youtu.be/JacW5J6wm0g";.
+
+data:60 rdf:type data:lagudaerah;
+    data:id "060";
+    data:title "Jali-Jali";
+    data:asal "Dki Jakarta";
+    data:pencipta "No Name";
+    data:link "https://youtu.be/qkfs46zsmzs";.
+
+
+
+   
