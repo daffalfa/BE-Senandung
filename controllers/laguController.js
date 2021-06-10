@@ -31,6 +31,7 @@ module.exports.getLagu = async (req, res) => {
         }
     } catch (err) {
         res.status(400).json(err);
+        console.log(err);
     }
 }
 
@@ -45,7 +46,7 @@ module.exports.getAdvancedsearch = async (req, res) => {
                 message: "Pencarian data tingkat lanjut tidak ditemukan"
             });
         }
-        
+
         lagus = lagus.bindings.map((lagudaerah) => Format(lagudaerah));
         res.status(200).json({
             data: lagus,
@@ -54,5 +55,6 @@ module.exports.getAdvancedsearch = async (req, res) => {
 
     } catch (err) {
         res.status(400).json(err);
+        console.log(err);
     }
 }

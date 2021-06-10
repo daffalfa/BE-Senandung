@@ -41,17 +41,22 @@ exports.getLagu = async (param) => {
         return data.results;
     } catch (err) {
         res.status(400).json(err);
+        console.log(err);
     }
 };
 //sampe sini gadipake
 
 module.exports.getAdvancedsearch = async (param) => {
     let search=param.search;
-    let arraysearch=search.split(" ");
     let splitarraysearch=new Array();
+
+    if (param.search != null)
+    {
+    let arraysearch=search.split(" ");
 
     for(i in arraysearch){
         splitarraysearch = arraysearch.join("|");
+    }
     }
 
     // Query
@@ -69,7 +74,7 @@ module.exports.getAdvancedsearch = async (param) => {
         OPTIONAL {?sub data:pencipta ?pencipta.}
         OPTIONAL {?sub data:link ?link.}
         OPTIONAL {?asalId data:namaAsal ?namaAsal.}
-        FILTER regex(?title, "${splitarraysearch ? splitarraysearch : ''}", "i")
+        FILTER regex(?title, "${splitarraysearch != null ? splitarraysearch : ''}", "i")
        } UNION {
         ?sub rdf:type data:lagudaerah
         OPTIONAL {?sub data:id ?id.}
@@ -78,7 +83,7 @@ module.exports.getAdvancedsearch = async (param) => {
         OPTIONAL {?sub data:pencipta ?pencipta.}
         OPTIONAL {?sub data:link ?link.}
         OPTIONAL {?asalId data:namaAsal ?namaAsal.}
-        FILTER regex(?namaAsal, "${splitarraysearch ? splitarraysearch : ''}", "i")
+        FILTER regex(?namaAsal, "${splitarraysearch != null ? splitarraysearch : ''}", "i")
        } UNION {
         ?sub rdf:type data:lagudaerah
         OPTIONAL {?sub data:id ?id.}
@@ -87,7 +92,7 @@ module.exports.getAdvancedsearch = async (param) => {
         OPTIONAL {?sub data:pencipta ?pencipta.}
         OPTIONAL {?sub data:link ?link.}
         OPTIONAL {?asalId data:namaAsal ?namaAsal.}
-        FILTER regex(?pencipta, "${splitarraysearch ? splitarraysearch : ''}", "i")
+        FILTER regex(?pencipta, "${splitarraysearch != null ? splitarraysearch : ''}", "i")
 }
 }`
     };
@@ -102,5 +107,6 @@ module.exports.getAdvancedsearch = async (param) => {
         return data.results;
     } catch (err) {
         res.status(400).json(err);
+        console.log(err);
     }
 };
